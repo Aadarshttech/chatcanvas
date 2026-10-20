@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="auraGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#4F46E5" />
+      <stop offset="50%" stopColor="#7C3AED" />
+      <stop offset="100%" stopColor="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="bubbleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="100%" stopColor="#F1F5F9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#4F46E5" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- iOS Apple Squircle Base -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#auraGradient)" filter="url(#glow)" />
+  
+  <!-- Subtle specular glossy shine -->
+  <path d="M2 18 C2 10, 10 2, 18 2 L46 2 C54 2, 62 10, 62 18 C45 22, 19 22, 2 18 Z" fill="#ffffff" opacity="0.18" />
+
+  <!-- Modern Chat Bubble Silhouette -->
+  <path d="M18 19 C18 15.686 20.686 13 24 13 L40 13 C43.314 13 46 15.686 46 19 L46 33 C46 36.314 43.314 39 40 39 L26 39 L19 45 L20 39 C18.895 39 18 38.105 18 37 Z" fill="url(#bubbleGradient)" />
+
+  <!-- Luminous AI Sparkle Star -->
+  <path d="M32 20 C32.5 24, 34 25.5, 38 26 C34 26.5, 32.5 28, 32 32 C31.5 28, 30 26.5, 26 26 C30 25.5, 31.5 24, 32 20 Z" fill="url(#auraGradient)" />
+</svg>
