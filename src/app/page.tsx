@@ -8,8 +8,8 @@ import { StudioCanvas } from '../components/showroom/StudioCanvas';
 import { FramerEmbedModal } from '../components/showroom/FramerEmbedModal';
 
 export default function ShowroomPage() {
-  const [selectedThemeId, setSelectedThemeId] = useState<ThemeId>('aura');
-  const [deviceMode, setDeviceMode] = useState<DeviceMode>('iphone');
+  const [selectedThemeId, setSelectedThemeId] = useState<ThemeId>('intercom');
+  const [deviceMode, setDeviceMode] = useState<DeviceMode>('desktop');
   const [isEmbedModalOpen, setIsEmbedModalOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
